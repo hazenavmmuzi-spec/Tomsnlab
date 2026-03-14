@@ -23,15 +23,13 @@
 
 baseurl: "/simple-landing-page" # the subpath of your site, e.g. /repo-name
 
-name: John Doe
-email: your@email.com
-tagline: "A short tagline about yourself."
-description: "A longer description about you or your site."
-github_username: your-github
-linkedin_username: your-linkedin
-resume_url: /assets/resume.pdf
-twitter_username: your-twitter
-blog_url: https://yourblog.com
+name: TomsnLab
+email: krcalik@post.cz
+tagline: "Tvůrce digitálního obsahu." 
+description: "Dělám digitální obsah pro jednotlivce a firmy."
+instagram1: https://www.instagram.com/tomsn.photo/
+instagram2: https://www.instagram.com/tomsn.clips/
+instagram3: https://www.instagram.com/visionz.cz/
 
 # Portfolio projects (example)
 portfolio:
@@ -49,6 +47,3 @@ portfolio:
 # Build settings
 plugins:
   - jekyll-feed
-instagram1: tomsn.photo
-instagram2: tomsn.clips
-instagram3: visionz.cz
