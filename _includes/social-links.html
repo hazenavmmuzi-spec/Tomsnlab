@@ -1,32 +1,30 @@
-<a href="https://instagram.com/TVUJ_PROFIL1" class="link outline" target="_blank">
-  <svg viewBox="0 0 24 24" fill="currentColor">
-    <path d="M7 2C4.239 2 2 4.239 2 7v10c0 2.761 2.239 5 5 5h10c2.761 
-    0 5-2.239 5-5V7c0-2.761-2.239-5-5-5H7zm5 
-    5a5 5 0 110 10 5 5 0 010-10zm6.5-.75a1.25 
-    1.25 0 11-2.5 0 1.25 1.25 0 012.5 
-    0zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
-  </svg>
-  Instagram 1
-</a>
+{% assign site.instagram1 = "jan_foto" %}
+{% assign site.instagram2 = "grafik_jan" %}
+{% assign site.instagram3 = "portfolio_jan" %}
 
-<a href="https://instagram.com/TVUJ_PROFIL2" class="link outline" target="_blank">
-  <svg viewBox="0 0 24 24" fill="currentColor">
-    <path d="M7 2C4.239 2 2 4.239 2 7v10c0 2.761 2.239 5 5 5h10c2.761 
-    0 5-2.239 5-5V7c0-2.761-2.239-5-5-5H7zm5 
-    5a5 5 0 110 10 5 5 0 010-10zm6.5-.75a1.25 
-    1.25 0 11-2.5 0 1.25 1.25 0 012.5 
-    0zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
-  </svg>
-  Instagram 2
-</a>
+{% if site.instagram1 %}
+  <a href="https://instagram.com/{{ site.instagram1 }}" class="link outline" target="_blank">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M7 2C4.239 2 2 4.239 2 7v10c0 2.761 2.239 5 5 5h10c2.761 0 5-2.239 5-5V7c0-2.761-2.239-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
+    </svg>
+    Instagram 1
+  </a>
+{% endif %}
 
-<a href="https://instagram.com/TVUJ_PROFIL3" class="link outline" target="_blank">
-  <svg viewBox="0 0 24 24" fill="currentColor">
-    <path d="M7 2C4.239 2 2 4.239 2 7v10c0 2.761 2.239 5 5 5h10c2.761 
-    0 5-2.239 5-5V7c0-2.761-2.239-5-5-5H7zm5 
-    5a5 5 0 110 10 5 5 0 010-10zm6.5-.75a1.25 
-    1.25 0 11-2.5 0 1.25 1.25 0 012.5 
-    0zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
-  </svg>
-  Instagram 3
-</a>
+{% if site.instagram2 %}
+  <a href="https://instagram.com/{{ site.instagram2 }}" class="link outline" target="_blank">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M7 2C4.239 2 2 4.239 2 7v10c0 2.761 2.239 5 5 5h10c2.761 0 5-2.239 5-5V7c0-2.761-2.239-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
+    </svg>
+    Instagram 2
+  </a>
+{% endif %}
+
+{% if site.instagram3 %}
+  <a href="https://instagram.com/{{ site.instagram3 }}" class="link outline" target="_blank">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M7 2C4.239 2 2 4.239 2 7v10c0 2.761 2.239 5 5 5h10c2.761 0 5-2.239 5-5V7c0-2.761-2.239-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
+    </svg>
+    Instagram 3
+  </a>
+{% endif %}
